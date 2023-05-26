@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color: #fff;
+    direction: rtl;
+}
+.casher {
+    width: 80%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    margin-top: 4rem;
+}
+form {
+    text-align: center;  
+    margin-top: 5rem;  
+}
+form input{
+    width: 60%;
+    padding: 1rem;
+    margin-bottom: 1rem; 
+    font-size: 1.1rem; 
+    border-radius: 20px;
+}
+.inp{
+    text-align: center;
+    margin: 0 20%;
+}
+.inp .btn{
+    width: 40%;
+    margin: 10px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: blueviolet;
+    color: #fff;
+    transition: 0.5s;
+}
+.inp .btn:hover {
+    transform: scale(1.1);
+}
+table {
+    width: 100%;   
+}
+table tr th{
+    margin: 1rem;
+    padding: 20px;
+    color: red;
+}
